@@ -11,8 +11,10 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   // Set our map properties
   mapCenter = [-78.6382, 35.7796];
-  basemapType = 'satellite';
-  mapZoomLevel = 12;
+  // basemapType = 'satellite';
+  // basemapType = 'topo';
+  basemapType = 'dark-gray';
+  mapZoomLevel = 16;
   birdModel: BirdModel;
 
   constructor(private birdService: GetBirdsService) { }
